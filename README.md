@@ -26,4 +26,4 @@ So you can set the range and the count for generator, or leave them blank. In th
 
 *Demo*
 
-Visit: http://ryanmcdonough.co.uk/prng/
+Visit: http://ryanmcdonough.co.uk/prng/index.html
