@@ -27,3 +27,8 @@ So you can set the range and the count for generator, or leave them blank. In th
 *Demo*
 
 Visit: http://ryanmcdonough.co.uk/prng/index.html
+
+*Misc*
+
+This is my first ever jQuery plugin so issues, pointers, glaring problems or any idiotic code found then please give me a shout!
+
