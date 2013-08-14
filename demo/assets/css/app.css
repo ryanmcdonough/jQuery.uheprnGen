@@ -1,0 +1,145 @@
+body {
+	background-color: #b4d1cf;
+	background: url("../img/bg/gradient1.svg") 140% 70% no-repeat fixed, url("../img/bg/gradient2.svg") -15% 100% no-repeat fixed, -webkit-linear-gradient(top, #a7cac7 35%, #528c9c 100%) 0 0 fixed;
+	background: url("../img/bg/gradient1.svg") 140% 70% no-repeat fixed, url("../img/bg/gradient2.svg") -15% 100% no-repeat fixed, linear-gradient(to bottom, #a7cac7 35%, #528c9c 100%) 0 0 fixed;
+	background-size: 2000px 2000px, 1300px 1300px, 100% 100%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Navigation */
+
+.navbar-brand {
+	background: #fff;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-right:0;
+	font-size:30px;
+}
+
+.navbar-brand:hover {
+	color: #582e91;
+}
+
+.navbar-app {
+	margin-bottom:0;
+	background: #FFF;
+	min-height: 70px;
+}
+
+.nav-pills > li > a {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 2px;
+	margin-right: 2px;
+	color: #8b8e94;
+	font-size:16px;
+}
+
+.nav-pills > li > a {
+	position: relative;
+	display: block;
+	padding: 6px 15px 6px 15px;
+}
+
+.nav-pills > li > a:hover {
+	color:#fff;
+	background: #428bca;
+}
+
+.nav-pills > li.active> a {
+	color:#428bca;
+	background: #fff;
+}
+
+.dropdown-menu {
+	margin-top: 0px;
+	background: #3e4145;
+	color: #8b8e94;
+	border-radius: 0;
+	min-width: 190px;
+}
+
+.dropdown-menu li {
+	padding:15px 20px 15px 20px;
+}
+
+
+.dropdown-menu li > a {
+	color:#8b8e94;
+	font-size:16px;
+	border-radius: 0;
+}
+
+
+/* Cool Hacks*/
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.absolute-centre {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+/* Fonts */
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Open Sans', sans-serif;
+	color: #3f4044;
+}
+
+.font--light {
+	font-weight: 300;
+}
+
+.font--normal {
+	font-weight: 400;
+}
+
+.font--semi-bold {
+	font-weight: 600;
+}
+
+.content--article-lead {
+	color: #8b8e94;
+	font-size: 19px;
+	line-height: 32px;
+	font-weight: normal;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+/* Content */
+
+.light-block {
+background-color: #f8fbfc;
+}
+
+.dark-block {
+background-color: #f1f7f9;
+}
+
+.black-block {
+background-color: #3e4145;
+}
+
+	.black-block > h1,h2,h3,h4,h5 {
+		color: #fff;
+	}
+
+	.black-block > p , a {
+		color: #fff;
+	}
+
+	.black-block li > a  {
+		color: #8b8e94;
+	}
+
+	.black-block li > a:hover  {
+		color: #fff;
+	}

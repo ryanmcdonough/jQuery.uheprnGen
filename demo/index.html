@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery UHEPRNG Plugin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-12">
+  				<h1>Ultra-High Entropy Pseudo-Random Number Generator (UHEPRNG)</h1>
+  				<hr />
+  				<p class="lead">The jQuery Plugin that allows you to quickly generate... well... Ultra High Entropy Pseduo Random Numbers.</p><p class="lead"> The clue's in the title.</p>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="col-12">
+  				<h2>$(this).uheprnGen(options); Returns: Random Numbers</h2>
+  				<hr />
+  				<h3>Description</h3>
+  				<p>By passing a range &amp; count as options (or leaving it blank will use the defaults of 10000 &amp; 10000) to the uheprnGen plugin you will get a block of Psuedo Random Numbers back.<p>
+  				<h3>Example</h3>
+	  				<pre class="prettyprint">var options = { range: 10001, count: 10001 };</pre>
+					<pre class="prettyprint">var x =  $(this).uheprngGen(options); $("#output").html(x);</pre>
+  				<p>So you can set the range and the count for generator, or leave them blank. In this example I set them both to 10001 and set the #output html to be the PRN generated.</p>
+  				<h3>Proper Example</h3>
+	  				<div class="row">
+		  			<div class="col-4">
+		  				<div class="form-group">
+						    <label for="range" class="col-4 control-label">Set The Range</label>
+						    <div class="col-12">
+						      <input type="text" class="form-control" id="range_inp" placeholder="10000" value="10000">
+						    </div>
+						</div>
+		  			</div>
+		  			<div class="col-4">
+		  				<div class="form-group">
+						    <label for="range" class="col-4 control-label">Set The Count</label>
+						    <div class="col-12">
+						      <input type="text" class="form-control" id="count_inp" placeholder="10000" value="10000">
+						    </div>
+						</div>
+		  			</div>
+		  			<div class="col-4">
+		  				<div class="form-group">
+						    <label for="range" class="col-4 control-label">&nbsp;</label>
+						    <div class="col-12">
+						      <button id="generate" class="btn btn-default">Generate</button>
+						    </div>
+						</div>
+		  			</div>
+					</div>
+					<hr />
+		  			<p class="clearfix" id="output"></p>
+  		
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="col-12">
+  				<h2>Hold on, this looks just like the GRC UHE PRNG!</h2>
+  				<hr />  				
+  				<p>You are right, it is. Well it's a wrapper for the JS created by Steve Gibson over at <a href='https://www.grc.com/otg/uheprng.htm'>GRC</a>. I'm a huge fan of Steve's - if you haven't had a listen to <a href='http://twit.tv/sn'>Security Now</a>, then I suggest that you do!</p>
+  			</div>
+  		</div>
+  	</div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <script src="../lib/uheprng.js"></script>
+	<script src="../lib/jquery.uheprnGen.js"></script>
+   
+	<script> 
+
+	$("#generate").click(function () {	
+				var options = { 
+				    range:     range_inp.value, 
+				    count:     count_inp.value
+				}; 
+
+		        var x =  $(this).uheprnGen(options);
+		        $("#output").html(x);
+	});
+	</script>
+    
+  </body>
+</html>
