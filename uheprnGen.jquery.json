@@ -1,0 +1,35 @@
+{
+    "name": "uheprnGen",
+    "title": "jQuery uheprnGen",
+    "description": "jQuery plugin for Ultra High Entropy Pseudo-Random Number generation.",
+    "keywords": [
+        "random numbers",
+        "encryption",
+		"entropy"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Ryan McDonough",
+        "url": "http://ryanmcdonough.co.uk"
+    },
+    "maintainers": [
+        {
+            "name": "Ryan McDonough",
+            "email": "me@ryanmcdonough.co.uk",
+            "url": "http://ryanmcdonough.co.uk"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "CC0",
+            "url": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    ],
+    "bugs": "https://github.com/ryanmcdonough/jQuery.uheprnGen/issues",
+    "homepage": "https://github.com/ryanmcdonough/jQuery.uheprnGen",
+    "docs": "https://github.com/ryanmcdonough/jQuery.uheprnGen",
+    "download": "https://github.com/ryanmcdonough/jQuery.uheprnGen/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
