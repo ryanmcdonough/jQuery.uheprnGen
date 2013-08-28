@@ -3,9 +3,10 @@
     "title": "jQuery uheprnGen",
     "description": "jQuery plugin for Ultra High Entropy Pseudo-Random Number generation.",
     "keywords": [
-        "random numbers",
+        "random",
         "encryption",
-	"entropy"
+	    "entropy",
+        "generation"
     ],
     "version": "1.0.0",
     "author": {
